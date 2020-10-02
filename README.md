@@ -65,11 +65,11 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell? When a new variable is being called inplace of the original function name. I could tell when the first function is being called with new variable to invoke the 2nd function.
+a. Where is closure used in this code? How can you tell? where name is being called inside the function.. its used when the name is being defined with dansroll. Because name has to reach outside the function to get the value of name
 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? Numbers are always between 0-5 could change the .floor to .ceil to get numbers 1-6
 
-c. What is the lexical scope of `newRoll`? that is a local block scope because its inside the function
+c. What is the lexical scope of `newRoll`? that is a local block scope because its inside the function(static scope)
 
 ### Task 3 - Stretch Goals
 

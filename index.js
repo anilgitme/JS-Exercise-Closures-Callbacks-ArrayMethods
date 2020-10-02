@@ -113,7 +113,7 @@ function finalScore(inning, number) {
     let away = 0;
 
     for (let i = 0; i < number; i++) {
-        home = home + inning(); /// assigning values to my keys
+        home = home + inning(); /// assigning values to my keys each iteration
         away = away + inning();
     }
 
