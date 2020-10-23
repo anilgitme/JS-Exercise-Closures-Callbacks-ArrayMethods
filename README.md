@@ -42,6 +42,9 @@ Find the file `index.js` and complete the tasks until your tests are passing.
 Edit the `ReadMe` file with your answers.
 
 1. In your own words, define closure (1-2 sentences).
+The combination of a function, and the lexical enviornment(information that it knows about) within which that function was decleared, when a function is decleared a new scope is created, a functional scope
+A function that has all its lexical enviorment(variables) covered
+
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -62,9 +65,11 @@ dansRoll();
 dansRoll();
 ```
 
-a. Where is closure used in this code? How can you tell?
-b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
-c. What is the lexical scope of `newRoll`? 
+a. Where is closure used in this code? How can you tell? where name is being called inside the function.. its used when the name is being defined with dansroll. Because name has to reach outside the function to get the value of name
+
+b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change? Numbers are always between 0-5 could change the .floor to .ceil to get numbers 1-6
+
+c. What is the lexical scope of `newRoll`? that is a local block scope because its inside the function(static scope)
 
 ### Task 3 - Stretch Goals
 
